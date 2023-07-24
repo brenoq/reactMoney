@@ -3,7 +3,7 @@ import { ReactNode, createContext, useEffect, useState } from 'react'
 interface Transaction {
   id: number
   description: string
-  type: 'income' | 'income'
+  type: 'income' | 'outcome'
   price: number
   category: string
   createdAt: string

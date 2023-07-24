@@ -13,8 +13,16 @@
       "description": "Hamburguer",
       "type": "outcome",
       "category": "Alimentação",
-      "price": 59,
+      "price": 60,
       "createdAt": "2023-07-21T14:30:09.953Z"
+    },
+    {
+      "id": 3,
+      "description": "Ignite - Rockeseat",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 1980,
+      "createdAt": "2023-07-21T14:23:09.953Z"
     }
   ]
 }

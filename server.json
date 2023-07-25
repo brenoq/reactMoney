@@ -23,6 +23,22 @@
       "category": "Educação",
       "price": 1980,
       "createdAt": "2023-07-21T14:23:09.953Z"
+    },
+    {
+      "category": "Equipamentos",
+      "description": "Mouse",
+      "price": 150,
+      "type": "outcome",
+      "createdAt": "2023-07-25T14:05:19.278Z",
+      "id": 4
+    },
+    {
+      "category": "Venda",
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "type": "income",
+      "createdAt": "2023-07-25T14:28:58.493Z",
+      "id": 5
     }
   ]
 }

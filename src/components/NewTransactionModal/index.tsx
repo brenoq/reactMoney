@@ -21,9 +21,16 @@ const newTransactionFormSchema = z.object({
   type: z.enum(['income', 'outcome']),
 })
 
+// Cria a interface
+interface NewTransactionModalProps {
+  handleTransactionModalOpenChange: (status: boolean) => void
+}
+
 type newTransactionFormInputs = z.infer<typeof newTransactionFormSchema>
 
-export function NewTransactionModal() {
+export function NewTransactionModal({
+  handleTransactionModalOpenChange,
+}: NewTransactionModalProps) {
   const { createTransaction } = useContext(TransactionsContext)
 
   const {
@@ -50,6 +57,7 @@ export function NewTransactionModal() {
     })
 
     reset()
+    handleTransactionModalOpenChange(false)
   }
 
   return (

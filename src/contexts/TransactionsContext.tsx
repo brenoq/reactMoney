@@ -68,7 +68,7 @@ export function TransactionProvider({ children }: TransactionProviderProps) {
   useEffect(() => {
     // eslint-disable-next-line @typescript-eslint/no-floating-promises
     fetchTransactions()
-  }, [])
+  }, [fetchTransactions])
 
   return (
     <TransactionsContext.Provider
